@@ -105,10 +105,10 @@ WSGI_APPLICATION = 'reciclajeProyecto.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3kg42g8trf6j3',
-        'USER': 'awpvsfrdaxpvhc',
-        'PASSWORD': '6762f91541b46b247cd61aef37d6a139b658cf505aa021cef9607c7b6dec6b68',
-        'HOST': 'ec2-23-22-243-103.compute-1.amazonaws.com',
+        'NAME': '<dbname_postgress>',
+        'USER': '<user_postgres>',
+        'PASSWORD': '<password_postgres>',
+        'HOST': '<Host_Postgres>',
         'PORT': '5432',
     }
 }
